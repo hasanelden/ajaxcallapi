@@ -1,0 +1,215 @@
+body {
+    background-color: snow;
+    font-family: 'Roboto', ;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.searchButton {
+    text-align: center;
+    border-radius: 5px;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+    border: 1px solid black;
+    height: 50px;
+    opacity: 0.8
+}
+
+.searchButton svg {
+    z-index: -1;
+}
+
+.searchButton:focus {
+    background-color: aqua;
+}
+
+input[type=text] {
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.search {
+    display: -webkit-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search form {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.titleMovie {
+    text-align: center;
+    color: steelblue;
+}
+
+.filmContainer {
+    display: inline-block;
+    border-radius: 5px;
+    float: left;
+    height: 400px;
+    width: 280px;
+    margin: 70px;
+    background-color: grey;
+}
+
+.filmContainer img {
+    height: 180px;
+    width: 280px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.filmContainer-info {
+    color: whitesmoke;
+    font-size: 19px;
+    height: 150px;
+    display: block;
+    align-items: center;
+}
+
+a {
+    font-size: 19px;
+    padding: 0.5rem;
+    background-color: red;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a:hover {
+    animation: shake 1s infinite;
+}
+
+.btn {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+}
+
+.deleteContent {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 375px) {
+    .filmContainer {
+        margin: 12px;
+    }
+    .searhSvg {
+        width: 25px !important;
+        height: 25px !important;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+    .filmContainer {
+        margin: 40px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .filmContainer {
+        margin: 64px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .filmContainer {
+        margin: 48px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    .filmContainer {
+        margin: 24px;
+    }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .filmContainer {
+        margin: 38px;
+    }
+}
+
+.sonarananlar {
+    display: inline;
+}
+
+.imdb {
+    color: black;
+}
+
+.title {
+    color: black;
+}
+
+.content {
+    text-align: center;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.green {
+    background: green;
+}
